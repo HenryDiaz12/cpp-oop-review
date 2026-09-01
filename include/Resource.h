@@ -28,6 +28,6 @@ public:
     virtual void release() = 0;
     virtual void use() const = 0;
     [[nodiscard]] virtual std::string describeUsage() const = 0;
-    [[nodiscard]] type getResourceType() const;
+    [[nodiscard]] Type getResourceType() const;
 };
 #endif //RESOURCE_H
