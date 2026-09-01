@@ -1,3 +1,5 @@
+
+
 # Minimum required CMAKE version for the upgraded baseline
 cmake_minimum_required(VERSION 4.3.1)
 
@@ -19,7 +21,8 @@ endif()
 
 # Source files
 set(SOURCES
-main.cpp)
+main.cpp
+        src/Resource.cpp)
 
 # Define the executable target
 add_executable(cpp-opp-review ${SOURCES})
